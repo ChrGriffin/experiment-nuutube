@@ -1,0 +1,17 @@
+div.vid-div {
+	background-color: #F8F8F8;
+	border: 1px solid #D3D3D3;
+	width: 722px;
+	height: 407px;
+	margin: 60px auto 0 auto;
+}
+
+h2.q-mark {
+	font-size: 20em;
+	margin-top: 35px;
+}
+
+h2.searching {
+	font-size: 4em;
+	margin-top: 60px;
+}
