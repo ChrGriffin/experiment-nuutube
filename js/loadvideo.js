@@ -57,7 +57,7 @@ function youtubeReq(data){
 	var today = new Date();
 	// var date = ISODateString(new Date(today.getTime() - (1000*60*60)));
 	// YouTube requires an API key for an API call to be successful, so we'll define it here
-	var apikey = "AIzaSyBRMOvWIIhO_p41rxsrCuIITNnEUtLmEWM";
+	var apikey = "API-KEY-HERE";
 	// finally, we'll add all our elements together in a string, which we'll set to the variable 'request'
 	// var request = "https://www.googleapis.com/youtube/v3/search?part=id&maxResults=50&publishedAfter=" + date + "&q=" + word + "&type=video&key=" + apikey;
 	var request = "https://www.googleapis.com/youtube/v3/search?part=id&maxResults=50&q=" + word + "&type=video&key=" + apikey;
